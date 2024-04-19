@@ -1,0 +1,228 @@
+@media screen and (max-width: 820px) {
+    
+    @font-face {
+        font-family: 'TTLakes';
+        src: url('Font/TTLakes-ExtraLight.woff') format('woff'),
+        url('Font/TTLakes-DemiBold.woff') format('woff');
+    }
+
+    @font-face {
+        font-family: 'TTLakes';
+        src: url('Font/TTLakes-DemiBold.woff') format('woff');
+        font-weight: bold;
+    }
+
+    body {
+        font-family: 'TTLakes';
+    }
+
+    .about h3 {
+        font-size: 30px;
+        font-weight: bold;
+        border-left: 5px solid #41F6D7; 
+        padding-left: 20px;
+        border-top-left-radius: 3px; 
+        border-bottom-left-radius: 3px;
+    }
+
+    .header {
+        display: flex;
+        border-bottom: 1px solid #D9FFF5;
+        justify-content: space-between; 
+        width: 100%
+    }
+
+    .header__button-menu, .header__button-repair, .header__button-check {
+        height: 40px;
+        width: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 10px;
+        border: none;
+        background:none;
+    }
+
+    .header__logo {
+        margin-right: auto;
+        padding-bottom: 20px;
+    }
+
+    .header__button-menu {
+        margin-left: 10px;
+        margin-right: 16px;
+    }
+
+    .header__button-repair{
+        margin-right: 26px;
+    }
+
+    .slide-menu {
+        background:none;
+        overflow-x: auto; 
+        white-space: nowrap;
+        scrollbar-width: none;
+        -ms-overflow-style: none; 
+        width: 100%;
+    }
+
+    .slide-menu ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .slide-menu ul li a {
+        padding: 10px;
+        display: block;
+        color: #80949F;
+        text-decoration: none;
+    }
+
+    .slide-menu ul li a:hover, .slide-menu ul li a:active {
+        border: 2px solid #B8FFEC;
+        border-radius: 5px;
+    }
+    
+    .tabcontent {
+        display: none;
+        border-top: none;
+    }
+
+    .tabcontent img {
+        width: 320px;
+        height: 176px;
+        margin-right: 20px;
+    }
+
+    .addText {
+        background: none;
+        border: none;
+        font-weight: bold;
+    }
+
+   
+
+}
+
+@media screen and (min-width: 820px) {
+    @font-face {
+        font-family: 'TTLakes';
+        src: url('Font/TTLakes-ExtraLight.woff') format('woff'),
+        url('Font/TTLakes-DemiBold.woff') format('woff');
+    }
+
+    @font-face {
+        font-family: 'TTLakes';
+        src: url('Font/TTLakes-DemiBold.woff') format('woff');
+        font-weight: bold;
+    }
+
+    body {
+        font-family: 'TTLakes';
+    }
+
+    .about h3 {
+        font-size: 30px;
+        font-weight: bold;
+        border-left: 5px solid #41F6D7; 
+        padding-left: 20px;
+        border-top-left-radius: 3px; 
+        border-bottom-left-radius: 3px;
+    }
+
+    .header {
+        display: flex;
+        border-bottom: 1px solid #D9FFF5;
+        justify-content: space-between; 
+        width: 100%
+    }
+
+    .header__button-menu, .header__button-repair, .header__button-check {
+        height: 40px;
+        width: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 10px;
+        border: none;
+        background:none;
+    }
+
+    .header__logo {
+        margin-right: auto;
+        padding-bottom: 20px;
+    }
+
+    .header__button-menu {
+        margin-left: 10px;
+        margin-right: 16px;
+    }
+
+    .header__button-repair{
+        margin-right: 26px;
+    }
+
+    .slide-menu {
+        background:none;
+        overflow-x: auto; /* Enables horizontal scrolling */
+        white-space: nowrap;
+        scrollbar-width: none;
+        -ms-overflow-style: none; 
+        width: 100%;
+    }
+
+    .slide-menu ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .slide-menu ul li a {
+        padding: 10px;
+        display: block;
+        color: #80949F;
+        text-decoration: none;
+    }
+
+    .slide-menu ul li a:hover, .slide-menu ul li a:active {
+        border: 2px solid #B8FFEC;
+        border-radius: 5px;
+    }
+    
+    .tabcontent {
+        display: none;
+        border-top: none;
+    }
+
+    .tabcontent img {
+        width: 531px;
+        height: 307px;
+        margin-left: 40px;
+        margin-top: 20px;
+
+    }
+
+    .addText {
+        background: none;
+        border: none;
+        font-weight: bold;
+        height: 20px;
+    }
+
+    .tabcontent {
+        display: flex;       /* Aligns children (img and text) in a row */
+        align-items: center; /* Vertically centers the items in the container */
+        gap: 10px;   
+    }
+
+    .Text {
+        margin-left: 40px;
+    }
+}
+
+
