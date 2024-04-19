@@ -64,7 +64,6 @@
         scrollbar-width: none;
         -ms-overflow-style: none; 
         width: 100%;
-        margin-left: 15px;
     }
 
     .slide-menu ul {
@@ -73,6 +72,8 @@
         margin: 0;
         display: flex;
         justify-content: space-around;
+        margin-left: 15px;
+
     }
 
     .slide-menu ul li a {
