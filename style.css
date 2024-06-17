@@ -16,6 +16,11 @@
         font-family: 'TTLakes';
     }
 
+    .addTextBtnImg{
+        width: 20px;
+        height: 20px;
+    }
+
     .about h3 {
         font-size: 30px;
         font-weight: bold;
@@ -94,16 +99,21 @@
         border-top: none;
     }
 
-    .tabcontent img {
+    /* .tabcontent img {
         width: 320px;
         height: 176px;
         margin-right: 20px;
-    }
+    } */
 
-    .addText {
+    .addTextBtn {
         background: none;
         border: none;
         font-weight: bold;
+    }
+
+    #companyImg {
+        width: 320px;
+        height: 176px;
     }
 
    
@@ -125,6 +135,11 @@
 
     body {
         font-family: 'TTLakes';
+    }
+
+    .addTextBtnImg{
+        width: 20px;
+        height: 20px;
     }
 
     .about h3 {
@@ -207,7 +222,7 @@
         border-top: none;
     }
 
-    .tabcontent img {
+    .tabcontent {
         width: 531px;
         height: 307px;
         margin-left: 40px;
@@ -215,17 +230,15 @@
 
     }
 
-    .addText {
+    .addTextBtn {
         background: none;
         border: none;
         font-weight: bold;
-        height: 20px;
     }
 
-    .tabcontent {
-        display: flex;       /* Aligns children (img and text) in a row */
-        align-items: center; /* Vertically centers the items in the container */
-        gap: 10px;   
+    #companyImg {
+        width: 531px;
+        height: 307px;
     }
 
     .Text {

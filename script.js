@@ -19,14 +19,15 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function toggleText() {
-    var moreText = document.getElementById("moreText");
-    var btnText = document.getElementById("toggleButton");
+    const moreText = document.getElementById("moreText");
+    const btn = document.getElementById("toggleButton")
+    const btnText = document.getElementById("btnText");
 
     if (moreText.style.display === "none") {
         moreText.style.display = "inline";
-        btnText.textContent = "Меньше"; // Change the button text to 'Read Less'
+        btn.textContent = "Меньше"; // Change the button text to 'Read Less'
     } else {
         moreText.style.display = "none";
-        btnText.textContent = "Читать далее"; // Reset the button text to 'Read More'
+        btn.textContent = "Читать далее"; // Reset the button text to 'Read More'
     }
 }
