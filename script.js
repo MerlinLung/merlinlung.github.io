@@ -20,14 +20,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function toggleText() {
     const moreText = document.getElementById("moreText");
-    const btn = document.getElementById("toggleButton")
     const btnText = document.getElementById("btnText");
+    const showImg = document.getElementById("showImg")
+    const hideImg = document.getElementById("hideImg")
+
 
     if (moreText.style.display === "none") {
         moreText.style.display = "inline";
+        showImg.style.display = "none";
+        hideImg.style.display = "block";
         btn.textContent = "Меньше"; // Change the button text to 'Read Less'
     } else {
         moreText.style.display = "none";
+        hideImg.style.display = "none"
+        showImg.style.display = "block";
         btn.textContent = "Читать далее"; // Reset the button text to 'Read More'
     }
 }

@@ -25,53 +25,56 @@
             </button>
         </header>
 
-        
-        <div class="about" id="about">
-            <h3>Услуги и сервисы</h3>
-        </div>
-        <div class="slide-menu">
-            <ul class="tab-links">
-                <li class="active"><a href="#devices">Ремонтируемые устройства</a></li>
-                <li><a href="#services">Дополнительные услуги</a></li>
-                <li><a href="#prices">Цены на услуги</a></li>
-                <li><a href="#centers">Адреса сервисных центров</a></li>
-                <li><a href="#specials">Специальные цены</a></li>
-            </ul>
-        </div>
-        <div class="tab-content">
-            <div id="devices" class="tabcontent active">
-                <div class="Text">
-                    <p> Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас 
-                        вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
-                        <span id="moreText" style="display: none;">
-                            Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что 
-                            подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам 
-                            обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
-                        </span>
-                    </p>
-                    <div>
-                        <button onclick="toggleText()" id="toggleButton" class="addTextBtn">
-                            <img src="imagese/expand.png" alt="arrows" class="addTextBtnImg">
-                            <div id="btnText" class="arrowButton">Читать далее</div>
-                        </button>
+        <div class="mine">
+            <div class="about" id="about">
+                <h3>Услуги и сервисы</h3>
+            </div>
+            <div class="slide-menu">
+                <ul class="tab-links">
+                    <li class="active"><a href="#devices">Ремонтируемые устройства</a></li>
+                    <li><a href="#services">Дополнительные услуги</a></li>
+                    <li><a href="#prices">Цены на услуги</a></li>
+                    <li><a href="#centers">Адреса сервисных центров</a></li>
+                    <li><a href="#specials">Специальные цены</a></li>
+                </ul>
+            </div>
+            <div class="tab-content">
+                <div id="devices" class="tabcontent active" style="/* display: block;*/">
+                    <div class="Text">
+                        <p> Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас 
+                            вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
+                            <span id="moreText" style="display: none;">
+                                Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что 
+                                подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам 
+                                обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
+                            </span>
+                        </p>
+                        <div>
+                            <button onclick="toggleText()" id="toggleButton" class="addTextBtn">
+                                <img id="showImg" src="imagese/expand.png" alt="arrows" class="addTextBtnImg">
+                                <img id="hideImg" src="imagese/expand - Copy.png" alt="arrows" class="addTextBtnImg">
+                                <div id="btnText" class="arrowButton">Читать далее</div>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="companyPicture">
+                        <img id="companyImg" src="imagese/ec28084f3de98850700667e14dbc02fd.png" alt="company picture">
                     </div>
                 </div>
-                <img id="companyImg" src="imagese/ec28084f3de98850700667e14dbc02fd.png" alt="company picture">
+                <div id="services" class="tabcontent">
+                    <p>Content for Дополнительные услуги...</p>
+                </div>
+                <div id="prices" class="tabcontent">
+                    <p>Content for Цены на услуги...</p>
+                </div>
+                <div id="centers" class="tabcontent">
+                    <p>Content for Адреса сервисных центров...</p>
+                </div>
+                <div id="specials" class="tabcontent">
+                    <p>Content for Специальные цены...</p>
+                </div>
             </div>
-            <div id="services" class="tabcontent">
-                <p>Content for Дополнительные услуги...</p>
-            </div>
-            <div id="prices" class="tabcontent">
-                <p>Content for Цены на услуги...</p>
-            </div>
-            <div id="centers" class="tabcontent">
-                <p>Content for Адреса сервисных центров...</p>
-            </div>
-            <div id="specials" class="tabcontent">
-                <p>Content for Специальные цены...</p>
-            </div>
-        </div>
-        
+        </div> 
 
         <footer>
             

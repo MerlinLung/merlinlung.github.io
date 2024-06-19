@@ -1,3 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#hideImg {
+    display: none;
+}
+
+.mine {
+    padding: 32px;
+}
+
+.about h3::before {
+    content: url(./imagese/highlight.png); /* Example: Star icon */
+    position: absolute;
+    left: 0; 
+} 
+
 @media screen and (max-width: 320px) {
     
     @font-face {
@@ -24,10 +43,7 @@
     .about h3 {
         font-size: 30px;
         font-weight: bold;
-        border-left: 5px solid #41F6D7; 
-        padding-left: 20px;
-        border-top-left-radius: 3px; 
-        border-bottom-left-radius: 3px;
+        margin-bottom: 24px;
     }
 
     .header {
@@ -65,16 +81,16 @@
 
     .slide-menu {
         background:none;
-        overflow-x: auto; 
+        overflow-x: auto; /* Enables horizontal scrolling */
         white-space: nowrap;
         scrollbar-width: none;
         -ms-overflow-style: none; 
         width: 100%;
+        margin-bottom: 24px;
     }
 
     .slide-menu ul {
         list-style: none;
-        padding: 0;
         margin: 0;
         display: flex;
         justify-content: space-around;
@@ -91,7 +107,10 @@
     .slide-menu ul li a:hover, .slide-menu ul li a:active {
         border: 2px solid #B8FFEC;
         border-radius: 5px;
-        padding: 6px;
+        padding-bottom: 8px;
+        padding-top: 8px;
+        padding-left: 8px;
+        padding-right: 8px;
     }
     
     .tabcontent {
@@ -99,16 +118,14 @@
         border-top: none;
     }
 
-    /* .tabcontent img {
-        width: 320px;
-        height: 176px;
-        margin-right: 20px;
-    } */
 
     .addTextBtn {
         background: none;
         border: none;
         font-weight: bold;
+        display: flex;
+        margin-top: 16px;
+
     }
 
     #companyImg {
@@ -145,10 +162,7 @@
     .about h3 {
         font-size: 30px;
         font-weight: bold;
-        border-left: 5px solid #41F6D7; 
-        padding-left: 20px;
-        border-top-left-radius: 3px; 
-        border-bottom-left-radius: 3px;
+        margin-bottom: 24px;
     }
 
     .header {
@@ -191,6 +205,7 @@
         scrollbar-width: none;
         -ms-overflow-style: none; 
         width: 100%;
+        margin-bottom: 24px;
     }
 
     .slide-menu ul {
@@ -217,23 +232,20 @@
         padding-right: 8px;
     }
     
-    .tabcontent {
-        display: none;
-        border-top: none;
-    }
+
 
     .tabcontent {
         width: 531px;
         height: 307px;
-        margin-left: 40px;
-        margin-top: 20px;
-
+        border-top: none;
     }
 
     .addTextBtn {
+        display: flex;
         background: none;
         border: none;
         font-weight: bold;
+        margin-top: 16px;
     }
 
     #companyImg {
@@ -241,9 +253,11 @@
         height: 307px;
     }
 
-    .Text {
-        margin-left: 40px;
+    #devices {
+        display: flex;
+        justify-content: space-between;
     }
+
 }
 
 
