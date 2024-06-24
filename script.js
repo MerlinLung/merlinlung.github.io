@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Add "active" class to the clicked tab and show the corresponding tab content
             this.parentElement.classList.add('active');
-            document.querySelector(this.getAttribute('href')).style.display = 'block';
+            document.querySelector(this.getAttribute('href')).style.display = 'flex';
         };
     });
 
